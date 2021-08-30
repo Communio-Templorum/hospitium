@@ -1,20 +1,10 @@
-# webtoolkit
-Gulp toolkit to quickly and easily set up a Single Page Application
+# Hospitium
 
-## Initialization
+A 501(d) organization promoting the ancient philosophy of [Hospitium](https://en.wikipedia.org/wiki/Hospitium),
+the divine right of guests and the divine duty of the host.
 
-Use the project as a repo template in GitHub [here](https://github.com/YodasWs/webtoolkit/generate).
+We will be opening a bed and breakfast.
 
-```bash
-yarn
+## Membership
 
-vim package.json
-
-gulp init -n <site title>
-```
-
-## Tasks
-
-```bash
-gulp -?
-```
+Now accepting applications for new members.
