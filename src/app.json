@@ -2,5 +2,7 @@
 	"name": "hospitium",
 	"components": [],
 	"sections": [],
-	"pages": []
+	"pages": [
+		"articles"
+	]
 }
