@@ -7,4 +7,30 @@
 	li {
 		margin-bottom: 1em;
 	}
+
+	counter-reset: articles 0 sections 0;
+
+	h3 {
+		font-family: Times New Roman;
+		font-size: 1.2em;
+	}
+
+	h3::before {
+		counter-set: sections 0;
+		counter-increment: articles 1;
+		display: inline;
+		content: "Article " counter(articles, upper-roman) ": ";
+	}
+
+	h4::before {
+		counter-increment: sections 1;
+		display: inline;
+		content: counter(articles) "." counter(sections) ". ";
+	}
+
+	ol {
+		ol {
+			list-style-type: lower-roman;
+		}
+	}
 }
